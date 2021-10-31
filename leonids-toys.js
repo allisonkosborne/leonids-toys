@@ -1,35 +1,42 @@
-const robotTrex = {
+const toys = [
+  {
+    id: 1,
+    name: "robotTrex",
     cost: 200,
-    material: plastic,
+    material: "plastic",
     height: 24,
     width: 16,
     weight: 16,
-    color: black, 
+    color: "black",
     ageAppropriate: 12,
-    type: robot, 
+    type: "robot",
+  },
 
-}
-
-const easyBakeOven = {
+  {
+    id: 2,
+    name: "easyBakeOven",
     cost: 75,
-    materials: aluminum,
+    materials: "aluminum",
     height: 8,
     width: 14,
     weight: 120,
-    color: purple, 
-    ageAppropriate: 8, 
-    type: kitchen, 
+    color: "purple",
+    ageAppropriate: 8,
+    type: "kitchen",
+  },
 
-}
-
-const sillyPutty = {
+  {
+    id: 3,
+    name: "sillyPutty",
     cost: 2,
-    materials: plastic, 
+    materials: "plastic",
     height: 1,
     width: 2,
     weight: 4,
-    color: yellow, 
-    ageAppropriate: 6, 
-    type: classic, 
+    color: "yellow",
+    ageAppropriate: 6,
+    type: "classic",
+  },
+];
 
-}
+console.log(toys);
