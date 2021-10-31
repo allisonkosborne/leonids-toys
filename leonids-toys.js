@@ -39,30 +39,34 @@ const toys = [
   },
 ];
 
-for (const toy of toys) {
-  console.log(toy.cost);
-}
+const slinkyToy = {
+  id: 4,
+  name: "slinky",
+  cost: 5,
+  materials: "metal",
+  height: 4,
+  width: 6,
+  weight: 8,
+  color: "limeGreen",
+  ageAppropriate: 5,
+  type: "classic",
+};
 
-for (const toy of toys) {
-  console.log(toy.materials);
-}
+toys.push(slinkyToy);
 
-for (const toy of toys) {
-  console.log(toy.height);
-}
+const basketball = {
+  id: 5,
+  name: "basketball",
+  cost: 15,
+  materials: "rubber",
+  height: 11,
+  width: 7,
+  weight: 3.5,
+  color: "orange",
+  ageAppropriate: 8,
+  type: "ball",
+};
 
-for (const toy of toys) {
-  console.log(toy.width);
-}
+toys.push(basketball);
 
-for (const toy of toys) {
-  console.log(toy.weight);
-}
-
-for (const toy of toys) {
-  console.log(toy.ageAppropriate);
-}
-
-for (const toy of toys) {
-  console.log(toy.type);
-}
+console.log(toys);
