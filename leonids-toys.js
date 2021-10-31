@@ -3,7 +3,7 @@ const toys = [
     id: 1,
     name: "robotTrex",
     cost: 200,
-    material: "plastic",
+    materials: "plastic",
     height: 24,
     width: 16,
     weight: 16,
@@ -39,4 +39,30 @@ const toys = [
   },
 ];
 
-console.log(toys);
+for (const toy of toys) {
+  console.log(toy.cost);
+}
+
+for (const toy of toys) {
+  console.log(toy.materials);
+}
+
+for (const toy of toys) {
+  console.log(toy.height);
+}
+
+for (const toy of toys) {
+  console.log(toy.width);
+}
+
+for (const toy of toys) {
+  console.log(toy.weight);
+}
+
+for (const toy of toys) {
+  console.log(toy.ageAppropriate);
+}
+
+for (const toy of toys) {
+  console.log(toy.type);
+}
