@@ -69,4 +69,14 @@ const basketball = {
 
 toys.push(basketball);
 
-console.log(toys);
+for (const toy of toys) {
+  console.log(`The ${toy.color} ${toy.name} costs ${toy.cost}.`);
+}
+
+for (const toy of toys) {
+  toy.cost = toy.cost * 1.05;
+
+  console.log(
+    `The ${toy.color} ${toy.name} costs ${toy.cost} and weighs ${toy.weight} ounces.`
+  );
+}
