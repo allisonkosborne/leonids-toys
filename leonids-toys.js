@@ -80,3 +80,13 @@ for (const toy of toys) {
     `The ${toy.color} ${toy.name} costs ${toy.cost} and weighs ${toy.weight} ounces.`
   );
 }
+
+const addToyToInventory = (toyObject) => {
+  const lastIndex = toys.length - 1;
+  const currentLastToy = toys[lastIndex];
+  const maxId = currentLastToy.id;
+
+  const idForNewToy = maxId + 1;
+  toyObject.id = idForNewToy;
+  toys.push(toyObject);
+};
